@@ -484,22 +484,24 @@
 
             <div class="form-footer">
                 <p class="social-media-title">Подпишитесь на рассылку</p>
-                <div class="form-footer-group">
-                    <label for="">
-                        <input class="contact-form-group-footer" type="text" name="user-email" placeholder="E-mail"
-                            required />
-                    </label>
-                    <div class="btn-fooret-wrapper">
-                        <button type="button" class="form-footer-btn">Подписаться
-                            <svg class="form-footer-btn-icon" width="24" height="24">
-                                <use href="./images/icons.svg#icon-send"></use>
-                            </svg>
-                        </button>
-                    </div>
+                <div>
+                    <form class="form-footer-group">
+                        <label>
+                            <input class="contact-form-group-footer" type="text" name="user-email" placeholder="E-mail"
+                                required />
+                        </label>
+                        <div class="btn-fooret-wrapper">
+                            <button type="button" class="form-footer-btn">Подписаться
+                                <svg class="form-footer-btn-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-send"></use>
+                                </svg>
+                            </button>
+                    </form>
                 </div>
-
-
             </div>
+
+
+        </div>
 
 
 
@@ -510,6 +512,7 @@
     <!-- Modal window -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
+            <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
             <form class="sign-up-form" autocomplete="on" novalidate>
                 <div class="contact-form-wrapper">
                     <label class="form-group">
@@ -554,7 +557,7 @@
                         class="checkbox-agreement">Уловия
                         договора</span>
                 </label>
-                <button class="modal-button" type="submit" disabled>Отправить</button>
+                <button class="modal-button" type="submit">Отправить</button>
 
 
 
