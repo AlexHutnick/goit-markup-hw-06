@@ -954,7 +954,7 @@ header {
     position: relative;
     padding: 16px;
     border-radius: 4px;
-    
+    resize: none;
     outline: none;
 }
 
@@ -989,6 +989,13 @@ header {
     fill: var(--accent-color);
  }
 
+ .contact-form-group:focus {
+    outline: 1px solid var(--accent-color);
+ }
+
+ .contact-form-group:focus + svg.modal-icon { 
+    fill: var(--accent-color);
+ }
  /* Modal form styles */
 
  .sign-up-form {
